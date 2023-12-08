@@ -1,6 +1,7 @@
 package com.example.demo.controllers;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +27,11 @@ public class ItemController {
 	
 	@GetMapping("/{id}")
 	public ResponseEntity<Item> getItemById(@PathVariable Long id) {
-		return ResponseEntity.of(itemRepository.findById(id));
+		Optional<Item> item = itemRepository.findById(id);
+		if (!item.isPresent()) {
+			return ResponseEntity.notFound().build();
+		}
+		return ResponseEntity.of(item);
 	}
 	
 	@GetMapping("/name/{name}")
