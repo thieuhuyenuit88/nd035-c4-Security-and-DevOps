@@ -113,3 +113,24 @@ javax.persistence.EntityNotFoundException: null
 2023-12-08T15:06:03.906+0900 INFO Username set with user123
 2023-12-08T15:06:04.042+0900 INFO User created with username user123!
 2023-12-08T15:06:23.138+0900 INFO Item added to cart successfully! Username: user123
+2023-12-08T16:25:25.607+0900 INFO Starting SareetaApplication on LPPTRUONGND33-1 with PID 30316 (C:\Users\TruongND33\Downloads\SecurityandDevOps\starter_code\target\classes started by TruongND33 in C:\Users\TruongND33\Downloads\SecurityandDevOps)
+2023-12-08T16:25:25.615+0900 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-12-08T16:25:25.617+0900 INFO No active profile set, falling back to default profiles: default
+2023-12-08T16:25:33.057+0900 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-12-08T16:25:34.274+0900 INFO Started SareetaApplication in 9.003 seconds (JVM running for 9.836)
+2023-12-08T16:26:44.007+0900 INFO Starting SareetaApplication on LPPTRUONGND33-1 with PID 20168 (C:\Users\TruongND33\Downloads\SecurityandDevOps\starter_code\target\classes started by TruongND33 in C:\Users\TruongND33\Downloads\SecurityandDevOps)
+2023-12-08T16:26:44.017+0900 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-12-08T16:26:44.018+0900 INFO No active profile set, falling back to default profiles: default
+2023-12-08T16:26:47.447+0900 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-12-08T16:26:48.496+0900 INFO Started SareetaApplication in 4.796 seconds (JVM running for 5.811)
+2023-12-08T16:31:16.746+0900 INFO Starting SareetaApplication on LPPTRUONGND33-1 with PID 10764 (C:\Users\TruongND33\Downloads\SecurityandDevOps\starter_code\target\classes started by TruongND33 in C:\Users\TruongND33\Downloads\SecurityandDevOps)
+2023-12-08T16:31:16.750+0900 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-12-08T16:31:16.751+0900 INFO No active profile set, falling back to default profiles: default
+2023-12-08T16:31:21.450+0900 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-12-08T16:31:22.554+0900 INFO Started SareetaApplication in 6.082 seconds (JVM running for 6.739)
+2023-12-08T16:31:43.644+0900 INFO Username set with user123
+2023-12-08T16:31:43.785+0900 INFO User created with username user123!
+2023-12-08T16:31:44.677+0900 INFO Username set with user123
+2023-12-08T16:31:55.270+0900 INFO Item added to cart successfully! Username: user123
+2023-12-08T16:32:00.699+0900 INFO Item added to cart successfully! Username: user123
+2023-12-08T16:32:29.597+0900 INFO Order submitted successfully! Recipient username: user123
